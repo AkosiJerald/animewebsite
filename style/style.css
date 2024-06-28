@@ -1,0 +1,139 @@
+
+body{
+    background-color: black;
+    
+}
+header{
+    background-color: black;
+    height: 20vh;
+    width: 100%;
+    background-image: url(https://i.ytimg.com/vi/vkCAjjmp7Lw/maxresdefault.jpg);
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;  
+    border: 2px solid rgb(73, 73, 46);
+}
+nav{
+    margin: 1%;
+    border: 2px solid rgb(73, 73, 46);
+    padding: 20px;
+    background-color: black;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+nav a{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    
+}
+
+footer h1{
+    color: white;
+    font-size: 15px;
+    font-family:'Courier New', Courier, monospace;
+}
+section{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+section aside{
+    background-color: rgb(0, 0, 0);
+    width: 30%;
+    height: auto;
+    border: 2px solid rgb(73, 73, 46);
+    color: white;
+    word-wrap: break-word;
+    text-indent: 20px;
+}
+section aside p{
+    border: 2px solid rgb(73, 73, 46);
+    width: 90%;
+    height: 80vh;
+    font-size: 1rem;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace; 
+    position: relative;
+   overflow: auto;
+    margin: 1%;
+}
+section aside img{
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 70%;
+    height: auto;
+
+}
+section article{
+    width: 70%;
+    background-color: rgb(7, 7, 7);
+    height: auto;
+    border: 2px solid rgb(73, 73, 46);
+    color: white;
+   
+}
+section article h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    margin-left: 12%;
+}
+
+section article p{
+    font-size: 1rem;
+    width: 75%;
+    border: 2px solid rgb(73, 73, 46);
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 25px;
+    text-indent: 25px;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer{
+    background-image: url("https://e0.pxfuel.com/wallpapers/49/175/desktop-wallpaper-and-on-twitter-anime-jujutsu-aesthetic-anime-jujutsu-kaisen-logo.jpg");
+    display: flex;
+    width: 100%;
+    height: 25vh;
+    border: 2px solid rgb(73, 73, 46);
+    opacity: 1.0;
+    margin-top: 20px;
+}
+footer img{
+   width: 140%;
+    height: auto;
+    float: right;
+    margin: 1%;
+}
+
+footer li{
+    
+    width:100%;
+    color: white;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+footer ul{
+    width: 150%;
+    font-family: monospace;
+    list-style-type: none;
+    padding: 20px;
+    margin-right: 10%;
+}
+
+footer ul a{
+    text-decoration: none;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
